@@ -12,20 +12,13 @@ Method 3: Distance Default using the KMV model: Iterative Method
 
 Merged COMPUSTAT and CRSP data to get fundamental and market variables respectively.
 Computed DD and PD for these firms for each year (as of Jan 1 of each year)
-Tabulate the following for the three DD and PD measures
-Number of observations
-Mean,
-, and percentiles and
-standard deviation
-Minimum and Maximum of the variable
-Compute the correlations between these three measures of DD and PD
-Plot the mean, , and percentiles of DD for the three measures across time (for
-each year). Do you see any trends?
-Get NBER recession data https://research.stlouisfed.org/fred2/series/USREC
-Compute the descriptive statistics for NBER recession and NBER recession . Plot DD
-and PD with the recession data. What do you notice?
-Get Moody's BAA-Fed Fund Spread https://research.stlouisfed.org/fred2/series/BAAFFM
-Plot DD and PD along with BAA spread. Reflect and comment.
-Get Cleveland Financial Stress Index https://research.stlouisfed.org/fred2/series/CFSI. Its not
-available for the entire time period. Plot DD and PD along with stress index. Reflect and
-comment
+
+Computed the correlations between these three measures of DD and PD
+
+Compute the descriptive statistics for NBER recession and NBER recession . 
+
+Plotted DD and PD with the recession data and generated insights (https://fred.stlouisfed.org/series/USREC)
+
+Plotted DD and PD along with Moody's BAA-Fed Fund Spread (https://research.stlouisfed.org/fred2/series/BAAFFM)
+
+Plotteed DD and PD against the Cleveland Financial Stress Index (https://research.stlouisfed.org/fred2/series/CFSI)
